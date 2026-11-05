@@ -1,0 +1,19 @@
+[project]
+name = "pdflex"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "jay", email = "cjay46541@gmail.com" }
+]
+requires-python = ">=3.14.3"
+dependencies = [
+    "streamlit>=1.66.1",
+]
+
+[project.scripts]
+pdflex = "pdflex:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
